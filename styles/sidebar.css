@@ -1,0 +1,35 @@
+.sidebar{
+    background-color: black;
+    color:white;
+    position:fixed;
+    top:65px;
+    left:0px;
+    bottom:0px;
+    width:65px;
+
+}
+.sidebarlink{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    margin-bottom: 1px;
+    border-radius: 5px;
+    flex-direction:column;
+    
+}
+.sidebarlink:hover{
+    background-color: grey;
+    
+}
+.sidebarshorts,.ytmus,img{
+    width:25px;
+    margin-bottom: 6px;
+
+}
+
+.sidebarlink div{
+    font-family:Roboto,arial;
+    font-size:10px;
+    
+}

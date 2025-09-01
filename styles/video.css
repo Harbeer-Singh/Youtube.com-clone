@@ -1,0 +1,63 @@
+.thumbnail {
+      width: 100%;
+      margin-bottom: 8px;
+      border-radius: 8px;
+      
+    }
+    .CFotodiv {
+      width: 48px;
+    }
+    .Channelfoto {
+      border-radius: 50px;
+      width: 40px;
+    }
+    .videoinfodiv {
+      display: inline-block;
+      width: 200px;
+      font-family: Roboto;
+    }
+    .video1info {
+      color: #f1f1f1;
+      margin-top: 0px;
+      font-size: 14px;
+      width: 245px;
+    }
+    .video2info {
+      font-size: 12px;
+      margin-top: 10px;
+      margin-bottom: 0px;
+      color: #aaaaaa;
+    }
+     .videoinfogrid {
+      display: grid;
+      grid-template-columns: 50px 1fr;
+    }
+    .div {
+       
+      width:100%;
+      max-width: 300px;
+      vertical-align: top;
+      margin-left: 20px;
+    }
+    
+    .thumbnailRow{
+      position:relative;
+    }
+    .videotime{
+      display:flex;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    position:absolute;
+    bottom:18px;
+    right:8px;
+    border-radius:3px;
+    padding: 0.5px;
+    opacity:0.7;
+    justify-content: center;
+    }
+
+a {
+  text-decoration: none;
+}

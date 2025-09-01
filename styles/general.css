@@ -1,0 +1,28 @@
+.grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(309px,1fr));
+      row-gap: 16px;
+      column-gap: 0px;
+    }
+    @media(max-width:1082px){
+     .grid{
+      grid-template-columns:1fr 1fr 1fr;
+     }
+    }
+    @media(max-width:983px){
+     .grid{
+      grid-template-columns:1fr 1fr ;
+     }
+    }
+    @media(max-width:678px){
+     .grid{
+      grid-template-columns:1fr ;
+     }
+    }
+    body{
+        margin:0;
+        padding-top:85px;
+        padding-bottom:200px;
+        background-color: black;
+        padding-left:70px;
+        }
